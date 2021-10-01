@@ -32,5 +32,27 @@
 .question-input{
 	grid-column: span 4;
 	text-align: center;
-	padding: 3em;
+	padding: 1em;
+
 }
+
+.question{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	
+}
+.question-enter{
+	grid-column: span 2;
+}
+
+.answer-input .submit-btn{
+	grid-column: span 1;
+}
+
+.question-option{
+	display: grid;
+	grid-template-columns: 10em 10em;
+
+	
+}
+
