@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.heading{
+	display: flex;
+	justify-content: center;
+	padding: 1em;
+	background-color: #7bd1ed;
+	margin: 2em;
+	border-radius:20px ;
+}
+
+.wrap{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	background-color: lightred;
+}
+
+.name{
+	grid-column: span 2;
+	background-color: pink;
+	text-align: center;
+}
+
+.name-input{
+	grid-column: span 2;
+	text-align: center;
+}
+
+.question-input{
+	grid-column: span 4;
+	text-align: center;
+}
