@@ -21,7 +21,7 @@
 
 .name{
 	grid-column: span 2;
-	background-color: pink;
+	/*background-color: pink;*/
 	text-align: center;
 }
 
@@ -33,4 +33,5 @@
 .question-input{
 	grid-column: span 4;
 	text-align: center;
+	padding: 3em;
 }
