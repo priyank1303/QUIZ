@@ -38,21 +38,34 @@
 
 .question{
 	display: grid;
-	grid-template-columns: 25em 25em 20em 20em;
+	grid-template-columns: 25em 25em 20em;
 	
 }
 .question-enter{
 	grid-column: span 2;
 }
 
-.answer-input .submit-btn{
+.answer-input{
 	grid-column: span 1;
 }
 
 .question-option{
 	display: grid;
-	grid-template-columns: 20em 20em;
+	grid-template-columns: 25em 25em;
+}
 
+.submit_btn{
+	display: flex;
+	justify-content: center;
+
+}
+
+.container{
+	background-color: #212121;
+	padding: 3em;
+	border-radius: 3em;
+	color: white;
 	
 }
+
 
