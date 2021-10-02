@@ -38,7 +38,7 @@
 
 .question{
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: 25em 25em 20em 20em;
 	
 }
 .question-enter{
@@ -51,7 +51,7 @@
 
 .question-option{
 	display: grid;
-	grid-template-columns: 10em 10em;
+	grid-template-columns: 20em 20em;
 
 	
 }

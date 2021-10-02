@@ -56,7 +56,8 @@
 
 
 </div>
-	<div class="question p-4">
+<div class="container px-4">
+	<div class="question">
 		<div class="question-enter">
 			<form>
 			  <div class="form-group">
@@ -65,11 +66,22 @@
 			</form>
 		</div>
 		<div class="answer-enter px-4">
-			<form>
+			<!-- <form>
 			  <div class="form-group">
 			    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Anwer">
 			  </div>
-			</form>
+			</form> -->
+			<div class="col-auto my-1">
+		      <label class="mr-sm-2" for="inlineFormCustomSelect">Choose Right Answer</label>
+		      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+		        <option selected>Choose...</option>
+		        <option value="11">A</option>
+		        <option value="22">B</option>
+		        <option value="33">C</option>
+		        <option value="44">D</option>
+		      </select>
+		    </div>
+
 		</div>
 		<div class="submit-btn">
 			<form>
@@ -80,36 +92,42 @@
 		</div>
 	</div>
 
-	<div class="question-option py-4">
-		<div class="option1 p-3">
-			<form>
-			  <div class="form-group">
-			    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Anwer">
-			  </div>
-			</form>
+	<div class="question-option pt-2">
+		<div class="option1 p-2">
+
+			<div class="input-group">
+        		<div class="input-group-prepend">
+         	 		<div class="input-group-text">A</div>
+        		</div>
+        		<input type="text" class="form-control" placeholder="Option A">
+      		</div>
+
 		</div>
-		<div class="option2 p-3">
-			<form>
-			  <div class="form-group">
-			    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Anwer">
-			  </div>
-			</form>
+		<div class="option2 p-2">
+			<div class="input-group">
+        		<div class="input-group-prepend">
+         	 		<div class="input-group-text">B</div>
+        		</div>
+        		<input type="text" class="form-control" placeholder="Option B">
+      		</div>
 		</div>
-		<div class="option3 p-3">
-			<form>
-			  <div class="form-group">
-			    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Anwer">
-			  </div>
-			</form>
+		<div class="option3 p-2">
+			<div class="input-group">
+        		<div class="input-group-prepend">
+         	 		<div class="input-group-text">C</div>
+        		</div>
+        		<input type="text" class="form-control" placeholder="Option C">
+      		</div>
 		</div>
-		<div class="option4 p-3">
-			<form>
-			  <div class="form-group">
-			    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Anwer">
-			  </div>
-			</form>
+		<div class="option4 p-2">
+			<div class="input-group">
+        		<div class="input-group-prepend">
+         	 		<div class="input-group-text">D</div>
+        		</div>
+        		<input type="text" class="form-control" placeholder="Option D">
+      		</div>
 		</div>
 	</div>
-
+</div>
 </body>
 </html>
