@@ -62,7 +62,7 @@
 
 .container{
 	background: rgb(81,238,225);
-background: linear-gradient(45deg, rgba(81,238,225,1) 0%, rgba(187,204,203,1) 52%, rgba(3,140,138,1) 100%);
+	background: linear-gradient(45deg, rgba(81,238,225,1) 0%, rgba(187,204,203,1) 52%, rgba(3,140,138,1) 100%);
 	padding: 3em;
 	border-radius: 3em;
 	color: white;
